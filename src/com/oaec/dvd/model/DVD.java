@@ -57,6 +57,11 @@ public class DVD {
 		return result;
 		
 	}
+	@Override
+	public String toString() {
+		return "DVD [Id=" + Id + ", status=" + status + ", dCount=" + dCount + ", dName=" + dName + "]";
+	}
+	
 	
 	
 	
